@@ -26,7 +26,7 @@ def main():
     print("The current stock value is %s" % (locale.currency(finalStockValue)))
     
     finalBalance = (depositValue/initalStockValue)*finalStockValue
-    print(locale.currency(finalBalance))
+    print("You would have: %s" % locale.currency(finalBalance))
 
 if __name__ == "__main__":
     main()
